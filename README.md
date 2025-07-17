@@ -1,31 +1,45 @@
-# Business Expense Tracker
+# 💼 Business Expense Tracker
 
-A command-line interface (CLI) tool for tracking business expenses, storing data in an Excel file.
+A modern, interactive expense tracking tool built with **Python**, **Pandas**, and **Streamlit**, designed to help businesses and individuals manage their financial records seamlessly with Excel integration.
 
-## Features
+🌐 **Live Demo**: [https://business-expense-tracker.streamlit.app](https://business-expense-tracker.streamlit.app)
 
-- Add new expense entries with details like date, vendor, category, amount, payment mode, and invoice number
-- View all expenses with filtering options
-- Generate monthly expense summaries
-- Generate category-wise expense summaries
-- Export summaries to separate Excel sheets
+---
 
-## Installation
+# ✨ Features
 
-1. Clone this repository or download the files
+- ➕ Add new expense entries with full details
+- 🔍 View and filter expenses by date and category
+- ✏️ Edit or delete expenses dynamically
+- 📊 Monthly and category-wise expense summaries
+- 💳 Payment mode-wise analysis
+- 📁 Auto-generated Excel sheets
+- 📤 Export entire data to CSV format
+- 📈 Visual analytics using interactive charts
+- 🧾 Optional invoice number and description support
+
+---
+
+# 📦 Installation
+
+1. **Clone the repository**
+   ```bash
+   git clone https://github.com/your-username/business-expense-tracker.git
+   cd business-expense-tracker
+
 2. Install the required dependencies:
    ```bash
    pip install -r requirements.txt
    ```
 
-## Usage
+# ⚙️ Usage
 
 Run the expense tracker:
 ```bash
 python expense_tracker.py
 ```
 
-### Main Menu Options
+## 🧭 Main Menu Options
 
 1. **Add Expense**: Add a new expense entry
    - Date (defaults to today if not specified)
@@ -48,7 +62,7 @@ python expense_tracker.py
 
 6. **Exit**: Close the application
 
-## Data Storage
+# 🧾 Data Storage
 
 All expense data is stored in `expenses.xlsx` in the following format:
 - Date
@@ -58,7 +72,7 @@ All expense data is stored in `expenses.xlsx` in the following format:
 - Payment Mode
 - Invoice No
 
-## Requirements
+# 📦 Requirements
 
 - Python 3.6 or higher
 - pandas
